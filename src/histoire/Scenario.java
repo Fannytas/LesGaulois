@@ -9,16 +9,16 @@ public class Scenario {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Druide panoramix = new Druide("Panoramix", 5, 10);
-		panoramix.parler("Bonjour, je suis le druide Panoramix et ma potion peut aller d'une force 5 à 10.");
-		panoramix.parler( "Je vais aller préparer une petite potion...");
+		panoramix.parler("Bonjour, je suis le druide Panoramix et ma potion peut aller d'une force 5 ï¿½ 10.");
+		panoramix.parler( "Je vais aller prï¿½parer une petite potion...");
 		panoramix.preparerPotion();
-		Gaulois obélix = new Gaulois("Obélix", 10);
+		Gaulois obelix = new Gaulois("Obelix", 10);
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		Romain minus = new Romain("Minus", 6);
-		panoramix.booster(obélix);
-		obélix.parler("Par Bélénos, ce n'est pas juste !");
+		panoramix.booster(obelix);
+		obelix.parler("Par Bï¿½lï¿½nos, ce n'est pas juste !");
 		panoramix.booster(asterix);
-		asterix.parler("Bonjour à tous");
+		asterix.parler("Bonjour ï¿½ tous");
 		minus.parler("UN GAU ... UN GAUGAU...");
 		asterix.frapper(minus);
 		asterix.frapper(minus);

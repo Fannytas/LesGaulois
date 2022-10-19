@@ -34,11 +34,12 @@ public class Village {
 			System.out.println("-" + villageois[i].getNom());
 		}
 	}
+
 	
 	public static void main(String[] args) {
-		Village village = new Village("Village des Irréductibles", 30);
+		Village village = new Village("Village des Irrï¿½ductibles", 30);
 		// Gaulois gaulois = village.trouverHabitant(30);
-		// Le programme veut accéder à la 31ème case du tableau, car les tableau commence à 0
+		// Le programme veut accï¿½der ï¿½ la 31ï¿½me case du tableau, car les tableau commence ï¿½ 0
 		Chef abraracourcix = new Chef("Abraracourcix", 6, village);
 		village.setChef(abraracourcix);
 		Gaulois asterix = new Gaulois("Asterix", 8);
@@ -46,8 +47,8 @@ public class Village {
 		/*Gaulois gaulois = village.trouverHabitant(1);
 		System.out.println(gaulois);
 		*/
-		Gaulois obélix = new Gaulois("Obélix", 25);
-		village.ajouterHabitant(obélix);
+		Gaulois obelix = new Gaulois("Obelix", 25);
+		village.ajouterHabitant(obelix);
 		village.afficherVillageois();
 	}
 }
